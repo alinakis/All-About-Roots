@@ -10,12 +10,13 @@ x += hspeed;
 y += vspeed;
 
 if (x < 0 || x > room_width) {
+	//scr_screenshake(90,9,0.2);
 	x = room_width / 2;
 	y = room_height /2;
-	
-	//move_bounce_all(false)
-	hspeed = irandom(6)+1;
-	vspeed = irandom(6)+1;
-	score = 0;
-	
+	hspeed = irandom(3)+1;
+	vspeed = irandom(3)+1;
+	score = score - 1;
+	if (score < 0) {
+		score = 0;
+	}
 }

@@ -8,3 +8,5 @@ draw_set_colour(c_white);
 
 draw_text(room_width/2, 10, "Score: " + string(score) + " / 23");
 
+draw_circle(room_width/2, room_height/2, 15, true);
+draw_line(room_width/2,0,room_width/2,room_height);

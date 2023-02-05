@@ -16,7 +16,7 @@ var _str = string_copy(text[text_current], 1, char_current);
 draw_text(text_x, text_y,  _str);
 
 draw_set_font(fnt_explain);
-draw_set_halign(fa_right);
+draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_colour(c_black);
-draw_text(1350, 750, "Press Space to continue");
+draw_text(room_width/2, room_height/2+120, "Press Space to continue");

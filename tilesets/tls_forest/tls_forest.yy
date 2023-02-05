@@ -2,12 +2,6 @@
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
   "name": "tls_forest",
-  "textureGroupId": {
-    "name": "Default",
-    "path": "texturegroups/Default",
-  },
-  "autoTileSets": [],
-  "tileAnimationFrames": [],
   "spriteId": {
     "name": "spr_forest",
     "path": "sprites/spr_forest/spr_forest.yy",
@@ -19,10 +13,16 @@
   "tilehsep": 0,
   "tilevsep": 0,
   "spriteNoExport": true,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "out_columns": 9,
   "tile_count": 81,
+  "autoTileSets": [],
+  "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
   "tileAnimation": {
     "FrameData": [

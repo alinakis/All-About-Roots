@@ -9,7 +9,7 @@ text[4] = "Thank you for your time, it was a great Jam I hope you all had a wond
 text[5] = "info@bluehost.gr";
 
 text_current = 0;
-text_last = 4;
+text_last = 5;
 text_width = 400;
 text_x = room_width/2;
 text_y = room_height/2;
